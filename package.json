@@ -1,0 +1,11 @@
+{
+  "name": "app-salud-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "setup": "npm --prefix backend ci && npm --prefix frontend-mobile ci",
+    "start": "node start-all.js",
+    "start:backend": "npm --prefix backend run dev",
+    "start:web": "npm --prefix frontend-mobile run start:web"
+  }
+}
