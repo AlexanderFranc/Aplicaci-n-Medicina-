@@ -1,0 +1,20 @@
+# Node modules
+backend/node_modules/
+frontend-mobile/node_modules/
+
+# Expo cache
+frontend-mobile/.expo/
+
+# Local SQLite databases
+backend/data.db
+backend/logs.db
+
+# Logs and system files
+*.log
+.env
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
